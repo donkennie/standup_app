@@ -1,4 +1,5 @@
 require 'rails_helper'
+ login_user
 
 RSpec.describe "Activities", type: :request do
   describe "GET /mine" do
